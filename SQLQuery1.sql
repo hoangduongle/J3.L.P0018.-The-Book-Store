@@ -8,6 +8,7 @@ create table tblRoles(
 	RoleID varchar(50) primary key,
 	RoleName varchar(50)
 )
+go
 
 create table tblUsers(
 	UserID		int IDENTITY(1,1) primary key,
